@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barraca 7 Sur - Crear Cuenta</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="split-container">
+    
+    <!-- Lado Izquierdo: Registro -->
+    <main class="form-section">
+      <div class="form-box">
+        
+        <div class="logo-container">
+          <img src="imagenes/barraca2.png" alt="Barraca de Fierros 7 Sur">
+        </div>
+
+        <div class="form-header">
+          <h1>Crear Cuenta</h1>
+          <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+        </div>
+
+        <form id="formRegistro">
+          <div class="form-group">
+            <label for="nuevoUsuario">Nombre Completo o Usuario</label>
+            <input type="text" id="nuevoUsuario" name="nuevoUsuario" placeholder="Juan Pérez" required autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="nuevoPassword">Contraseña</label>
+            <input type="password" id="nuevoPassword" name="nuevoPassword" placeholder="Mínimo 6 caracteres" required autocomplete="new-password">
+          </div>
+
+          <button type="submit" class="btn-submit">Registrarme</button>
+        </form>
+
+        <div class="legal-footer">
+          <p>© 2026 Barraca de Fierros 7 Sur. Todos los derechos reservados.</p>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Lado Derecho: Imagen del Cohete -->
+    <aside class="hero-section" aria-label="Ilustración"></aside>
+
+  </div>
+
+  <script src="javascript/registro.js"></script>
+</body>
+</html>
